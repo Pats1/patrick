@@ -84,4 +84,19 @@ Usage: pishrink.sh [-adhnrsvzZ] imagefile.img [newimagefile.img]
 cd /mnt/c/'Documents and Settings'/patss/Downloads
 
 sudo /usr/local/bin/pishrink.sh startl_demoUSR_demo.img startl_demoUSR_demo_reduced.img
+
+
+
+
+***CSS tweaks &&& TEST ***
+
+sudo find / -name openwebrx.css
+sudo find / -name openwebrx.js  cd /usr/lib/python3/dist-packages/htdocs/
+sudo nano /usr/lib/python3/dist-packages/htdocs/openwebrx.js   openwebrx_init()
+
+ $('#openwebrx-panel-receiver').css( 'Width', '30vw');
+
+sudo nano /usr/lib/python3/dist-packages/htdocs/css/openwebrx.css
+in de nano editor doe CTRL + W en zoek naar  "openwebrx-panel-receiver" en verander de width naar 30vw
+width: 30vw;
 		
